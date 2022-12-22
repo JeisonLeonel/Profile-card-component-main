@@ -22,10 +22,10 @@ body {
 .card{
     background-color: white;
     width: 400px;
-    border-radius: 16px;
+    border-radius: 20px;
     overflow: hidden;
     -webkit-box-shadow: 2px 2px 4px var(--dark-gray);
-        box-shadow: 2px 2px 4px var(--dark-gray);
+    box-shadow: 2px 2px 4px var(--dark-gray);
 }
 .img-header{
     width: 100%;
@@ -38,9 +38,11 @@ body {
     border-bottom: 1px solid rgba(153, 153, 153, 0.383);
 }
 .content-card  .img-card{
+    width: 200px ;
+    height: 200px ;
     border: 5px solid white;
     border-radius: 50%;
-    margin-top: -48px;
+    margin-top: calc(-100px - 5px);
     background-color: white;
 }
 .content-card .title-card{
